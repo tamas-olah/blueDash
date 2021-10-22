@@ -1,0 +1,76 @@
+reference:
+- title: Skeleton Functions
+  desc: Page main elements
+  contents: 
+  - '`blueDashBody`'
+  - '`blueDashFooter`'
+  - '`blueFooterItem`'
+  - '`blueFooterMenu`'
+  - '`blueDashHeader`'
+  - '`blueDashNavbar`'
+  - '`blueDashPage`'
+  - '`blueDashSidebar`'
+  - '`blueDropNav`'
+  - '`blueDropNavDivider`'
+  - '`blueDropNavItem`'
+  - '`blueDropNavTitle`'
+  - '`blueSidebarDivider`'
+  - '`blueSidebarHeader`'
+  - '`blueSidebarMenu`'
+  - '`blueSidebarItem`'
+  - '`blueTabItem`'
+  - '`blueTabItems`'
+  
+- title: Cards
+  desc: Cards components ...
+  contents:
+  - '`blueInfoCard`'
+
+- title: Extras
+  desc: Extra elements
+  contents:
+  - '`blueAvatar`'
+  - '`blueAvatars`'
+  - '`blueTable`'
+  - '`blueTableItems`'
+  - '`blueTableItem`'
+
+- title: Gallery
+  desc: blueDash Gallery
+  contents:
+  - '`blueDashGallery`'
+  
+template:
+  params:
+    bootswatch: journal
+    
+    
+navbar:
+  structure:
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - tutorials
+    - news
+    right: github
+  components:
+    home:
+      icon: fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    news:
+      text: Changelog
+      href: news/index.html
+    github:
+      icon: fa-github fa-lg
+      href: https://github.com/RinteRface/blueDash
+  
+
+news:
+ releases:
+ - text: "blueDash 0.2.0"
+ - text: "blueDash 0.1.0"

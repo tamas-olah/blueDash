@@ -1,0 +1,20 @@
+Package: blueDash
+Type: Package
+Title: Blue Shiny Dashboard Template
+Version: 0.3.0.9000
+Authors@R: c(
+  person("David", "Granjon", email = "dgranjon@ymail.com", role = c("aut", "cre")),
+  person(family = "RinteRface", role = "cph"),
+  person(family = "Creative Tim", role = c("ctb", "cph"), comment = "Blue theme for Bootstrap 4"))
+Maintainer: David Granjon <dgranjon@ymail.com>
+Description: Create awesome 'Bootstrap 4' dashboards powered by 'Blue'.
+   See more here <https://rinterface.github.io/blueDash/>.
+License: GPL-2
+Imports: shiny, 
+    htmltools
+Suggests: magrittr
+URL: https://github.com/RinteRface/blueDash
+BugReports: https://github.com/RinteRface/blueDash/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.1
