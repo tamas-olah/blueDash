@@ -2987,7 +2987,7 @@ fieldset:disabled a.btn
 .btn-primary:focus,
 .btn-primary.focus
 {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08), 0 0 0 0 rgba(94, 114, 228, .5);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08), 0 0 0 0 rgba(54, 100, 139, .5);
 }
 .btn-primary.disabled,
 .btn-primary:disabled
@@ -3008,7 +3008,7 @@ fieldset:disabled a.btn
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus
 {
-    box-shadow: none, 0 0 0 0 rgba(94, 114, 228, .5);
+    box-shadow: none, 0 0 0 0 rgba(54, 100, 139, .5);
 }
 
 .btn-secondary
@@ -3467,7 +3467,7 @@ fieldset:disabled a.btn
 .btn-outline-primary:focus,
 .btn-outline-primary.focus
 {
-    box-shadow: 0 0 0 0 rgba(94, 114, 228, .5);
+    box-shadow: 0 0 0 0 rgba(54, 100, 139, .5);
 }
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled
@@ -3487,7 +3487,7 @@ fieldset:disabled a.btn
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus
 {
-    box-shadow: 0 0 0 0 rgba(94, 114, 228, .5);
+    box-shadow: 0 0 0 0 rgba(54, 100, 139, .5);
 }
 
 .btn-outline-secondary
@@ -4771,12 +4771,12 @@ input[type='button'].btn-block
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before
 {
-    background-color: rgba(94, 114, 228, .5);
+    background-color: rgba(54, 100, 139, .5);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before
 {
-    background-color: rgba(94, 114, 228, .5);
+    background-color: rgba(54, 100, 139, .5);
 }
 
 .custom-radio .custom-control-label::before
@@ -4796,7 +4796,7 @@ input[type='button'].btn-block
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before
 {
-    background-color: rgba(94, 114, 228, .5);
+    background-color: rgba(54, 100, 139, .5);
 }
 
 .custom-select
@@ -17676,7 +17676,7 @@ a.btn-icon-only
 
 .custom-checkbox .custom-control-input:disabled:checked::before
 {
-    border-color: rgba(94, 114, 228, .5);
+    border-color: rgba(54, 100, 139, .5);
 }
 
 .custom-control-label::before
@@ -17738,7 +17738,7 @@ a.btn-icon-only
 
 .custom-checkbox .custom-control-input:disabled:checked::before
 {
-    border-color: rgba(94, 114, 228, .5);
+    border-color: rgba(54, 100, 139, .5);
 }
 
 .custom-radio .custom-control-input ~ .custom-control-label
@@ -17765,7 +17765,7 @@ a.btn-icon-only
 
 .custom-radio .custom-control-input:disabled:checked::before
 {
-    border-color: rgba(94, 114, 228, .5);
+    border-color: rgba(54, 100, 139, .5);
 }
 
 .custom-toggle
@@ -20783,7 +20783,7 @@ textarea[resize='horizontal']
 
     color: #36648B;
     border-radius: 30px; 
-    background: rgba(94, 114, 228, .1);
+    background: rgba(54, 100, 139, .1);
 }
 
 .progress-percentage
